@@ -63,8 +63,8 @@ function App() {
              <div className="btn btn_primary">Hire Me
                <IconContext.Provider
               value={{
-                color: "#000",
-                size: "18px",
+                color: "#14da8f",
+                size: "25px",
               }}
             >
             <IoChevronForwardCircle/>
