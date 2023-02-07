@@ -1,10 +1,6 @@
 import "./App.scss";
 import { FaBehance, FaDribbble } from "react-icons/fa";
-import {
-  IoMailOpenOutline,
-  IoChevronForwardCircle,
-  IoStar,
-} from "react-icons/io5";
+import { IoMailOutline, IoChevronForwardCircle, IoStar } from "react-icons/io5";
 import { IconContext } from "react-icons";
 
 function App() {
@@ -28,6 +24,19 @@ function App() {
               </div>
               <div className="icon">
                 <FaDribbble />
+              </div>
+            </IconContext.Provider>
+          </span>
+          <span>
+            <IconContext.Provider
+              value={{
+                color: "#000",
+                size: "18px",
+              }}
+            >
+              <div className="icon">
+                <IoMailOutline />
+                hello@example.co
               </div>
             </IconContext.Provider>
           </span>
