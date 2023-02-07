@@ -70,6 +70,7 @@ function App() {
             <IoChevronForwardCircle/>
             </IconContext.Provider>
              </div>
+             <div className="btn btn_secondary">Live Chat</div>
           </div>
         </div>
         <div className="right_content_wrapper"></div>
