@@ -92,7 +92,9 @@ function App() {
         </div>
 
 
-        <div className="right_content_wrapper"></div>
+        <div className="right_content_wrapper">
+          <img src={process.env.PUBLIC_URL + '/images/bg.svg'} alt="" />
+        </div>
       </div>
     </>
   );
