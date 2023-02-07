@@ -47,6 +47,33 @@ function App() {
           </span>
         </div>
       </header>
+
+
+
+      <div className="content_wrapper">
+        <div className="left_content_wrapper">
+          <h2>
+            <span>Design focused</span>
+            <span>startup, for startups.</span>
+          </h2>
+          <p>when, while, lovely valley teems with vapor around meand
+          <br /> merdian sun strikes the upper impenetrable.
+          </p>
+          <div className="btn_group">
+             <div className="btn btn_primary">Hire Me
+               <IconContext.Provider
+              value={{
+                color: "#000",
+                size: "18px",
+              }}
+            >
+            <IoChevronForwardCircle/>
+            </IconContext.Provider>
+             </div>
+          </div>
+        </div>
+        <div className="right_content_wrapper"></div>
+      </div>
     </>
   );
 }
