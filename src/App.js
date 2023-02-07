@@ -48,31 +48,50 @@ function App() {
         </div>
       </header>
 
-
-
       <div className="content_wrapper">
         <div className="left_content_wrapper">
           <h2>
             <span>Design focused</span>
             <span>startup, for startups.</span>
           </h2>
-          <p>when, while, lovely valley teems with vapor around meand
-          <br /> merdian sun strikes the upper impenetrable.
+          <p>
+            when, while, lovely valley teems with vapor around meand
+            <br /> merdian sun strikes the upper impenetrable.
           </p>
           <div className="btn_group">
-             <div className="btn btn_primary">Hire Me
-               <IconContext.Provider
-              value={{
-                color: "#14da8f",
-                size: "25px",
-              }}
-            >
-            <IoChevronForwardCircle/>
-            </IconContext.Provider>
-             </div>
-             <div className="btn btn_secondary">Live Chat</div>
+            <div className="btn btn_primary">
+              Hire Me
+              <IconContext.Provider
+                value={{
+                  color: "#14da8f",
+                  size: "25px",
+                }}
+              >
+                <IoChevronForwardCircle />
+              </IconContext.Provider>
+            </div>
+            <div className="btn btn_secondary">Live Chat</div>
+          </div>
+          {/* Bintang Review container */}
+          <div className="review_container">
+              <p className="total_review">64+ Reviews</p>
+              <IconContext.Provider
+                value={{
+                  color: "#fff",
+                  size: "18px",
+                }}
+              >
+                <span><IoStar/></span>
+                <span><IoStar/></span>
+                <span><IoStar/></span>
+                <span><IoStar/></span>
+                <span><IoStar/></span>
+              </IconContext.Provider>
+              <p>More then 50+ people taking services.</p>
           </div>
         </div>
+
+
         <div className="right_content_wrapper"></div>
       </div>
     </>
