@@ -40,6 +40,11 @@ function App() {
               </div>
             </IconContext.Provider>
           </span>
+          <span className="menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
         </div>
       </header>
     </>
