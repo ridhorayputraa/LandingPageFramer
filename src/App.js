@@ -2,6 +2,7 @@ import "./App.scss";
 import { FaBehance, FaDribbble } from "react-icons/fa";
 import { IoMailOutline, IoChevronForwardCircle, IoStar } from "react-icons/io5";
 import { IconContext } from "react-icons";
+import Card from "./components/Card";
 
 function App() {
   return (
@@ -74,28 +75,42 @@ function App() {
           </div>
           {/* Bintang Review container */}
           <div className="review_container">
-              <p className="total_review">64+ Reviews</p>
-              <IconContext.Provider
-                value={{
-                  color: "#fff",
-                  size: "18px",
-                }}
-              >
-                <span><IoStar/></span>
-                <span><IoStar/></span>
-                <span><IoStar/></span>
-                <span><IoStar/></span>
-                <span><IoStar/></span>
-              </IconContext.Provider>
-              <p>More then 50+ people taking services.</p>
+            <p className="total_review">64+ Reviews</p>
+            <IconContext.Provider
+              value={{
+                color: "#fff",
+                size: "18px",
+              }}
+            >
+              <span>
+                <IoStar />
+              </span>
+              <span>
+                <IoStar />
+              </span>
+              <span>
+                <IoStar />
+              </span>
+              <span>
+                <IoStar />
+              </span>
+              <span>
+                <IoStar />
+              </span>
+            </IconContext.Provider>
+            <p>More then 50+ people taking services.</p>
           </div>
         </div>
 
-
         <div className="right_content_wrapper">
-          <img src={process.env.PUBLIC_URL + '/images/bg.svg'} alt="" />
+          <img
+            src={process.env.PUBLIC_URL + "/images/bg.svg"}
+            alt="someone who doing code"
+          />
         </div>
       </div>
+
+      <Card/>
     </>
   );
 }
