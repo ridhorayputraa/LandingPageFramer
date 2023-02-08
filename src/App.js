@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <header>
-        <div className="logo_rapper">
+        <div className="logo_wrapper">
           daily<span>frontend</span>
         </div>
         <div className="menu_container">

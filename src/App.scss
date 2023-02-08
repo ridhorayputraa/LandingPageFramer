@@ -26,6 +26,14 @@ body{
 
 header{
 @extend .dflex;
+justify-content: space-between;
 padding: 0 13%;
 height: 120px;
+.logo_wrapper{
+  font-size: 32px;
+  font-weight: 600;
+  span{
+    color:$dark_green;
+  }
+}
 }
