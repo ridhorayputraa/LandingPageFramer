@@ -21,6 +21,11 @@ function Card() {
           For Your Business
         </h2>
       </div>
+      <div className="service_card">
+        <div className="card">
+          <span className="service_icon" style={{}}></span>
+        </div>
+      </div>
     </div>
   );
 }
